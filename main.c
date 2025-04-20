@@ -70,6 +70,7 @@ int main() {
     const float scale = alpha / RANK;
   
     // Load data
+    // Add commnet
     std::vector<float> h_x, h_W, h_A, h_B, h_ref;
     load_txt("/data/hw3/x.txt", h_x, BATCH * IN_DIM);
     load_txt("/data/hw3/W.txt", h_W, OUT_DIM * IN_DIM);
